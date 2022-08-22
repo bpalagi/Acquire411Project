@@ -1,0 +1,54 @@
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+
+    background-color: #141414;
+
+    &__logo {
+        margin: 0px 10px;
+        padding: 10px;
+
+        font-size: 36px;
+        color: #F5F5F5;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__logOut {
+        margin: 0px 10px;
+        padding: 10px;
+
+        font-size: 26px;
+        white-space: nowrap;
+        color: #F5F5F5;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__navLinks {
+        display: flex;
+        flex-direction: row;
+
+        width: 75%;
+        
+        color: #F5F5F5;
+
+        &__link {
+            margin: 0px 15px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
